@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Fernando Dias</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        :root {
+            --bs-primary: #7c3aed;
+            --bs-primary-rgb: 124, 58, 237;
+            --bs-primary-text-emphasis: #5b21b6;
+            --bs-primary-bg-subtle: #ede9fe;
+            --bs-primary-border-subtle: #c4b5fd;
+        }
+        .btn-primary {
+            --bs-btn-color: #fff;
+            --bs-btn-bg: #7c3aed;
+            --bs-btn-border-color: #7c3aed;
+            --bs-btn-hover-color: #fff;
+            --bs-btn-hover-bg: #6d28d9;
+            --bs-btn-hover-border-color: #6d28d9;
+            --bs-btn-focus-shadow-rgb: 124, 58, 237;
+            --bs-btn-active-color: #fff;
+            --bs-btn-active-bg: #6d28d9;
+            --bs-btn-active-border-color: #6d28d9;
+            --bs-btn-disabled-color: #fff;
+            --bs-btn-disabled-bg: #7c3aed;
+            --bs-btn-disabled-border-color: #7c3aed;
+        }
+        .btn-outline-primary {
+            --bs-btn-color: #7c3aed;
+            --bs-btn-border-color: #7c3aed;
+            --bs-btn-hover-color: #fff;
+            --bs-btn-hover-bg: #7c3aed;
+            --bs-btn-hover-border-color: #7c3aed;
+            --bs-btn-focus-shadow-rgb: 124, 58, 237;
+            --bs-btn-active-color: #fff;
+            --bs-btn-active-bg: #7c3aed;
+            --bs-btn-active-border-color: #7c3aed;
+            --bs-btn-disabled-color: #7c3aed;
+            --bs-btn-disabled-bg: transparent;
+            --bs-btn-disabled-border-color: #7c3aed;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar navbar-expand-md bg-body-tertiary border-bottom py-3 sticky-top">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <div class="d-flex align-items-center gap-3">
+                <img src="img/Foto.jpeg" class="rounded-circle object-fit-cover" width="60" height="60" alt="Foto de Fernando Dias de Andrade Silva">
+                <div>
+                    <h1 class="h5 mb-0">Fernando Dias de Andrade Silva</h1>
+                    <small class="text-body-secondary">Estudante de Engenharia de Software</small>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-2">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                    <div class="d-flex flex-column flex-md-row align-items-md-center gap-md-3 mt-3 mt-md-0">
+                        <ul class="navbar-nav flex-column flex-md-row">
+                            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                            <li class="nav-item"><a href="#experiencia" class="nav-link">Experiência</a></li>
+                            <li class="nav-item"><a href="#formacao" class="nav-link">Formação</a></li>
+                            <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <button id="theme-toggle" type="button" class="btn btn-outline-secondary btn-sm">
+                    Modo escuro
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+    
+        <section id="sobre" class="py-5">
+            <div class="container">
+                <h2 class="mb-4 fw-bold">Sobre mim</h2>
+                <p class="lead">
+                    Estudante de Engenharia de Software, com experiência em rotinas administrativas e suporte
+                    técnico em TI. Tenho interesse em desenvolvimento de software, banco de dados, redes e automação
+                    de processos, buscando constantemente aprimorar meus conhecimentos e transformar aprendizado em 
+                    soluções práticas. Atualmente, busco oportunidades na área de tecnologia para desenvolver minha 
+                    experiência profissional, contribuir com projetos e continuar evoluindo como profissional de software.
+                </p>
+            </div>
+        </section>
+
+        <section id="experiencia" class="py-5 bg-body-tertiary">
+            <div class="container">
+                <h2 class="mb-4 fw-bold">Experiência</h2>
+
+                <div class="border-start border-3 border-primary ps-3 mb-4">
+                    <h3 class="h5 mb-1">Técnico de Suporte ao Usuário de TI I — DS Outsourcing</h3>
+                    <p class="text-body-secondary mb-1">Rio Verde - GO · Mar 2026 – Atual</p>
+                    <ul class="mb-0">
+                        <li>Realizo manutenção e configuração de redes, incluindo roteadores e demais equipamentos de infraestrutura.</li>
+                        <li>Executo passagem e organização de cabeamento de rede.</li>
+                        <li>Presto suporte técnico aos usuários, atuando na identificação e resolução de problemas relacionados à rede e a equipamentos de TI.</li>
+                    </ul>
+                </div>
+
+                <div class="border-start border-3 border-primary ps-3 mb-4">
+                    <h3 class="h5 mb-1">Auxiliar Administrativo — Neomedic Liga da Saúde LTDA</h3>
+                    <p class="text-body-secondary mb-1">São Simão - GO · 2023 – 2026</p>
+                    <ul class="mb-0">
+                        <li>Atuei no gerenciamento e operação do sistema ERP da empresa, garantindo a organização e integridade das informações.</li>
+                        <li>Fui responsável pelo controle e acompanhamento das rotinas financeiras, realizando lançamentos, conferências e oferecendo suporte à gestão.</li>
+                        <li>Atuei na elaboração e revisão de contratos e propostas comerciais, além de prestar atendimento ao cliente, oferecendo suporte e mantendo um relacionamento profissional.</li>
+                        <li>Organizei documentos e auxiliei nos processos administrativos internos, contribuindo para a eficiência das atividades da empresa.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="formacao" class="py-5">
+            <div class="container">
+                <h2 class="mb-4 fw-bold">Formação</h2>
+
+                <div class="border-start border-3 border-primary ps-3 mb-4">
+                    <h3 class="h5 mb-1">Graduando em Engenharia de Software — Universidade de Rio Verde (UNIRV)</h3>
+                    <p class="text-body-secondary mb-1">Rio Verde - GO, Brasil · Jan 2024 – Presente</p>
+                    <p class="mb-0">
+                        Formação voltada para desenvolvimento de software, algoritmos, estruturas de dados, banco de
+                        dados, engenharia de requisitos e arquitetura de sistemas. Ênfase em linguagem de
+                        programação C (básico) e Java, usando as IDEs VS Code e IntelliJ em ambiente Windows,
+                        PostgreSQL como banco de dados, além de documentação de software e elicitação de requisitos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="py-5 bg-body-tertiary">
+            <div class="container">
+                <h2 class="mb-4 fw-bold">Projetos</h2>
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="h5 card-title">Sistema HelpDesk</h3>
+                                <p class="card-text">Projeto desenvolvido como avaliação final (N3) da disciplina de Estrutura de Dados I, reunindo os conceitos práticos trabalhados ao longo do período.</p>
+                                <a href="https://github.com/diaszxl9/Projeto-Final-N3" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary">Ver no GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="h5 card-title">Projeto Calculadora</h3>
+                                <p class="card-text">Projeto colaborativo com foco no aprendizado de versionamento de código com Git/GitHub (branches, commits e colaboração em equipe).</p>
+                                <a href="https://github.com/kaiquexsouza/Projeto_Calculadora" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary">Ver no GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="py-5">
+            <div class="container">
+                <h2 class="mb-4 fw-bold">Habilidades</h2>
+                <div class="d-flex flex-wrap gap-2 mb-5">
+                    <span class="badge text-bg-primary fs-6 px-3 py-2">Java (POO)</span>
+                    <span class="badge text-bg-primary fs-6 px-3 py-2">C (Básico)</span>
+                    <span class="badge text-bg-primary fs-6 px-3 py-2">HTML</span>
+                    <span class="badge text-bg-primary fs-6 px-3 py-2">CSS</span>
+                    <span class="badge text-bg-primary fs-6 px-3 py-2">JavaScript</span>
+                    <span class="badge text-bg-primary fs-6 px-3 py-2">PostgreSQL</span>
+                    <span class="badge text-bg-primary fs-6 px-3 py-2">IntelliJ</span>
+                    <span class="badge text-bg-primary fs-6 px-3 py-2">Pacote Office</span>
+                    <span class="badge text-bg-primary fs-6 px-3 py-2">Git e GitHub</span>
+                </div>
+
+                <h3 class="h5 mb-3 fw-bold">Idiomas</h3>
+                <div class="d-flex flex-wrap gap-2">
+                    <span class="badge text-bg-secondary fs-6 px-3 py-2">Inglês — Intermediário</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="py-5 bg-body-tertiary">
+            <div class="container">
+                <h2 class="mb-4 fw-bold">Contato</h2>
+
+                <p>Rio Verde - GO</p>
+                <ul class="list-unstyled">
+                    <li class="mb-2">Linkedin: <a href="https://www.linkedin.com/in/fernandodiasz/" target="_blank" rel="noopener" class="link-body-emphasis">linkedin.com/in/fernandodiasz</a></li>
+                    <li class="mb-2">GitHub: <a href="https://github.com/diaszxl9" target="_blank" rel="noopener" class="link-body-emphasis">github.com/diaszxl9</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-top py-4 text-center text-body-secondary">
+        <div class="container">
+            <p class="mb-0">&copy; <span id="ano-atual">2026</span> Fernando Dias de Andrade Silva. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
